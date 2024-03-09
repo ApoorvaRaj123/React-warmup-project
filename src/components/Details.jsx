@@ -40,6 +40,7 @@ function Details() {
           <h2 className="text-xl mb-4 text-red-600 font-bold">${detail.price}</h2>
           <p className="mb-6">{detail.description}</p>
           <h5 className="text-lg pb-6">Ratings: {detail.rating.rate}⭐/5</h5>
+          <h5 className="text-lg pb-6">Reviews: {detail.rating.count}</h5>
           <Link className="mr-4 border-2 border-blue-200 px-4 py-2 text-blue-400 rounded-lg">Edit</Link>
           <Link className="border-2 border-red-200 px-4 py-2 text-red-400 rounded-lg">Delete</Link>
         </div>

@@ -12,6 +12,7 @@ function App() {
       <div className="h-screen w-full">
         {(pathname != "/" || search.length > 0) && (
           <Link to={"/"} className="absolute left-[17%] top-[2%] text-red-300">
+          <Link to={"/"} className="absolute left-[17%] top-[2%] text-red-300">
             Home
           </Link>
         )}
